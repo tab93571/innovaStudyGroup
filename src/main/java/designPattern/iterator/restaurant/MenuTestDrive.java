@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MenuTestDrive {
 	public static void main(String args[]) {
 
-		WaitressPreIteratorPattern waitressPreIteratorPattern = new WaitressPreIteratorPattern();
+		WaitressWithoutIteratorPattern waitressPreIteratorPattern = new WaitressWithoutIteratorPattern();
 		waitressPreIteratorPattern.printMenu();
 
 

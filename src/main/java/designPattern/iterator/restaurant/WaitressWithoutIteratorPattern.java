@@ -1,13 +1,10 @@
 package designPattern.iterator.restaurant;
 
-import java.util.Iterator;
-import java.util.List;
-
-public class WaitressPreIteratorPattern {
+public class WaitressWithoutIteratorPattern {
     PancakeHouseMenu pancakeHouseMenu;
     DinerMenu dinerMenu;
 
-    public WaitressPreIteratorPattern() {
+    public WaitressWithoutIteratorPattern() {
         pancakeHouseMenu = new PancakeHouseMenu();
         dinerMenu = new DinerMenu();
     }
